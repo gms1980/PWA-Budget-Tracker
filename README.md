@@ -13,7 +13,7 @@
   - [Additional Info](#additional-info)
 
   ## Description:
-  Budget Tracker allows the user the ablity to add expenses and deposits to their budget with or without a connection. When a user enters a transactions offline, these transactions are stored in the indexedDB, and transferred to the database when the user comes back online. 
+  Budget Tracker allows the user the ability to add expenses and deposits to their budget with or without a connection. When a user enters a transactions offline, these transactions are stored in the indexedDB, and transferred to the database when the user comes back online. 
   
   ## Installation:
   1. npm install
@@ -28,6 +28,8 @@
   3. Express.js
   4. MongoDB
   5. Mongoose
+  6. MongoDB Atlas
+  7. Heroku
   
  
   
@@ -39,8 +41,10 @@
   [![made-with-Markdown](https://img.shields.io/badge/falseMade%20with-Markdown-1f425f.svg)] (http://commonmark.org)
   
   ## Heroku:
-  1. Insomina CLi
   
+  https://git.heroku.com/budget-tracker-pwa-19unit.git
+
+  https://budget-tracker-pwa-19unit.herokuapp.com/
   
   ## Name:
   George M. Schimmel
