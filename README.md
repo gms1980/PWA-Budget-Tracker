@@ -1,19 +1,15 @@
 # Budget Tracker Starter Code
 
-  ## Licensing:
-  
-  [![license](http://opensource.org/licenses/MIT)](https://shields.io)
   
   ## Table of Contents 
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
-  - [Badges](#badges)
   - [Additional Info](#additional-info)
 
   ## Description:
-  Budget Tracker allows the user the ability to add expenses and deposits to their budget with or without a connection. When a user enters a transactions offline, these transactions are stored in the indexedDB, and transferred to the database when the user comes back online. 
+  Budget Tracker allows the user the ability to add expenses and deposits to their budget with or without a connection. When a user enters a transactions offline, these transactions are stored in the indexedDB.
   
   ## Installation:
   1. npm install
@@ -31,14 +27,8 @@
   6. MongoDB Atlas
   7. Heroku
   
- 
-  
   ## Credits:
   Mark Faraj (Tudor), BCS, and Teachers Assistants.
-  
-  
-  ## Badges:  
-  [![made-with-Markdown](https://img.shields.io/badge/falseMade%20with-Markdown-1f425f.svg)] (http://commonmark.org)
   
   ## Heroku:
   
