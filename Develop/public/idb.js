@@ -3,7 +3,7 @@ let indexedDB=window.indexedDB
 let db;
 // create a new db request for a "budget" database.
 const request = indexedDB.open("budget", 1);
-console.log(indexedDB);
+
 request.onupgradeneeded = function(event) {
    // create object store called "pending" and set autoIncrement to true
   const db = event.target.result;
@@ -20,7 +20,7 @@ request.onsuccess = function(event) {
 };
 
 request.onerror = function(event) {
-  console.log("Woops! " + event.target.errorCode);
+  console.log("Got an error! " + event.target.errorCode);
 };
 
 function saveRecord(record) {
